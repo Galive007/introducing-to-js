@@ -1,0 +1,9 @@
+s=20;
+if(s>18)
+{
+console.log("Sojib-luccho");
+}
+else
+{
+ console.log("soto-luccho");
+}
