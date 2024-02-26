@@ -1,0 +1,18 @@
+var number = 14.258;
+var x = "19.234";
+var y = "20";
+// console.log(number.toFixed(2));
+// console.log(parseInt(number));
+// console.log(x);
+console.log(typeof x);
+console.log(typeof parseInt(x));
+var z = parseFloat(x).toFixed(2);
+console.log(z);
+var convert = parseInt(z);
+console.log(convert);
+var col = parseFloat(x) + parseInt(y);
+console.log(parseInt(col));
+console.log(true + 4);
+console.log(isNaN("two"));
+console.log((10 == 10));
+console.log((10 === "10"));
